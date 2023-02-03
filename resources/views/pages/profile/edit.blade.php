@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-     Eidt Profile
+     Edit Profile
 @stop
 
 @section('css')
