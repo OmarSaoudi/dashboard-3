@@ -15,6 +15,8 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li><a href="{{ route('dashboard') }}"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+        <li class="header">MASTER</li>
+        <li><a href="{{ route('profile.edit') }}"><i class="fa fa-cogs"></i> <span>Update Profile Information</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->
