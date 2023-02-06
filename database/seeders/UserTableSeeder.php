@@ -22,6 +22,7 @@ class UserTableSeeder extends Seeder
             'email' => 'saoudiomar518@gmail.com',
             'created_at' => Carbon::now(),
             'password' => Hash::make('1'),
+            'users_images' => '',
         ]);
     }
 }

@@ -20,5 +20,18 @@
 <script src="{{ URL::asset('assets/dist/js/pages/dashboard2.js') }}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{ URL::asset('assets/dist/js/demo.js') }}"></script>
-
+<!-- Datatables -->
+<script src="{{ URL::asset('assets/bower_components/datatables.net/js/jquery.dataTables.min.js') }}"></script>
+<script src="{{ URL::asset('assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js') }}"></script>
+<script>
+  $(function () {
+    $('#example1').DataTable()
+  })
+</script>
+<script>
+    function preview(selector, temporaryFile, width = 100, height = 100)  {
+        $(selector).empty();
+        $(selector).append(`<img src="${window.URL.createObjectURL(temporaryFile)}" width="${width}" height="${height}">`);
+    }
+</script>
 @yield('scripts')

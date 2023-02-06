@@ -42,7 +42,7 @@
                    <div class="col-md-6">
                       <div class="form-group">
                          <label>Name</label>
-                         <input id="name" name="name" value="{{ old('name', $user->name) }}" type="text" class="form-control" required autofocus autocomplete="name">
+                         <input id="name" name="name" value="{{ old('name', $user->name) }}" type="text" class="form-control" required  autocomplete="name">
                          <x-input-error class="mt-2 text-red" :messages="$errors->get('name')" />
                       </div>
                     </div>
@@ -50,7 +50,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                            <label>Email</label>
-                           <input id="email" name="email" value="{{ old('email', $user->email) }}" type="email" class="form-control" required autofocus autocomplete="email">
+                           <input id="email" name="email" value="{{ old('email', $user->email) }}" type="email" class="form-control" required  autocomplete="email">
                            <x-input-error class="mt-2 text-red" :messages="$errors->get('email')" />
                         </div>
                     </div>
