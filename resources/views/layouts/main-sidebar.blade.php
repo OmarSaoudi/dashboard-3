@@ -18,6 +18,7 @@
         <li class="header">MASTER</li>
         <li><a href="{{ route('users.index') }}"><i class="fa fa-users"></i> <span>Users</span></a></li>
         <li><a href="{{ route('profile.edit') }}"><i class="fa fa-cogs"></i> <span>Update Profile Information</span></a></li>
+        <li><a href="{{ route('settings.index') }}"><i class="fa fa-cogs"></i> <span>Settings</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->
